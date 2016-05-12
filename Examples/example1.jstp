@@ -80,7 +80,7 @@
           control: 'label',
           top: 10, left: 10, right: 10,
           height: 10,
-          text: 'Íou are logged in'
+          text: 'You are logged in'
         }
       }
     }
