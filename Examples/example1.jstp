@@ -29,7 +29,7 @@
           height: 10,
           label: 'password'
         },
-        cancell: {
+        cancel: {
           control: 'button',
           top: 40, left: 10, right: 10,
           height: 10,
