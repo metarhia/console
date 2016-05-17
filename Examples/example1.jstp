@@ -31,14 +31,14 @@
         },
         cancel: {
           control: 'button',
-          top: 40, left: 10, right: 10,
-          height: 10,
+          top: 40, right: 70,
+          width: 25, height: 10,
           text: 'Cancel'
         },
         signin: {
           control: 'button',
-          top: 40, left: 10, right: 10,
-          height: 10,
+          top: 40, right: 10,
+          width: 25, height: 10,
           text: 'Sign in'
         },
         social: {
