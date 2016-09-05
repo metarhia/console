@@ -1,0 +1,129 @@
+{
+  screens: {
+    login: {
+      control: 'screen',
+      controls: {
+        login: { control: 'edit', filter: 'login', label: 'login' },
+        password: {
+          control: 'edit',
+          mode: 'password',
+          top: 25, left: 10, right: 10,
+          height: 10,
+          label: 'password'
+        },
+        cancell: {
+          control: 'button',
+          top: 40, left: 10, right: 10,
+          height: 10,
+          text: 'Cancel'
+        },
+        signin: {
+          control: 'button',
+          top: 40, left: 10, right: 10,
+          height: 10,
+          text: 'Sign in'
+        },
+        social: {
+          control: 'panel',
+          top: 55, botton: 10, left: 10, right: 10,
+          controls: {
+            googlePlus: {
+              control: 'button',
+              top: 0, left: 0,
+              height: 10, width: 10,
+              image: 'googlePlus'
+            },
+            facebook: {
+              control: 'button',
+              top: 0, left: 10,
+              height: 10, width: 10,
+              image: 'facebook'
+            },
+            vk: {
+              control: 'button',
+              top: 0, left: 10,
+              height: 10, width: 10,
+              image: 'vk'
+            },
+            twitter: {
+              control: 'button',
+              top: 0, left: 20,
+              height: 10, width: 10,
+              image: 'twitter'
+            }
+          }
+        }
+      }
+      controls: {
+        login: {
+          control: 'edit',
+          filter: 'login', // filter login 'A-Za-z0-9',
+          // other filters: number, upper, lower, date, time, datetime, money
+          top: 10, left: 10, right: 10,
+          height: 10, // so bottom should be calculated
+          label: 'login'
+        },
+        password: {
+          control: 'edit',
+          mode: 'password',
+          top: 25, left: 10, right: 10,
+          height: 10,
+          label: 'password'
+        },
+        cancell: {
+          control: 'button',
+          top: 40, left: 10, right: 10,
+          height: 10,
+          text: 'Cancel'
+        },
+        signin: {
+          control: 'button',
+          top: 40, left: 10, right: 10,
+          height: 10,
+          text: 'Sign in'
+        },
+        social: {
+          control: 'panel',
+          top: 55, botton: 10, left: 10, right: 10,
+          controls: {
+            googlePlus: {
+              control: 'button',
+              top: 0, left: 0,
+              height: 10, width: 10,
+              image: 'googlePlus'
+            },
+            facebook: {
+              control: 'button',
+              top: 0, left: 10,
+              height: 10, width: 10,
+              image: 'facebook'
+            },
+            vk: {
+              control: 'button',
+              top: 0, left: 10,
+              height: 10, width: 10,
+              image: 'vk'
+            },
+            twitter: {
+              control: 'button',
+              top: 0, left: 20,
+              height: 10, width: 10,
+              image: 'twitter'
+            }
+          }
+        }
+      }
+    },
+    main: {
+      control: 'screen',
+      controls: {
+        message: {
+          control: 'label',
+          top: 10, left: 10, right: 10,
+          height: 10,
+          text: 'You are logged in'
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+Main classes:
+- Application - EventEmitter and application context holder `{ name, screens, theme }`
+- Screen - screen or form, EventEmitter `{ name, controls, theme }`
+- Control - parent for all controls, EventEmitter, see fields below
+
+Control properties:
+```JavaScript
+{
+  name, owner, parent, visible, enabled,
+  align: (top, bottom, left, right, client, none),
+  x, y, width, height, hint, scrollable
+}
+```
+
+Control properties:
+```JavaScript
+{ click, hold, focus, leave, over, exit, hide, show, scroll }
+```
+
+Theme properties:
+```JavaScript
+{
+  normal: {
+    font: { face, size, ... },
+    colors: { text, back, border, shadow... },
+  },
+  selected: { ... },
+  disabled: { ... },
+  focused: { ... }
+}
+```
+
+Basic controls:
+- Container `{ controls }`
+- Label `{ text }`
+- Image `{ image, scale, horizontal ( left, fight, center, repeat ), vertical ( top, bottom, center, repeat ) }`
+- Button `{ text }`
+- Switch `{}`
+- Separator - line to separate controls `{ orientation: (vertical, horizontal), width, color }`
+- List - scrollable list `{ items, orientation: (vertical, horizontal) }`
+- Table `{ header, cols, rows }`
+- Edit `{ value }`
+- Text `{ value }`
+- Combo `{ value, list }`
+- Group - group for `Check` and `Radio` items `{ items }`
+- Check `{ value }`
+- Radio `{ value }`
+- Progress `{ min, max, position }`
+- Slider `{ min, max, position }`
+- Tabs `{ tabs }`
+
+Additional controls:
+- Accordion `{ tabs }`
+- Toolbar `{ buttons }`
+- Canvas
+- Tree `{ root }`
+- Chart
+- Video
+- Calendar
+- Shape `{ type: (circle, ellipse, square, rectangle, triangle, rhombus, etc...) }`

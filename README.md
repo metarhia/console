@@ -1,27 +1,18 @@
 # Metarhia Console
 
-## Концепция
+## The Concept
 
-Это несколько реализаций интерфейса к информационным системам для стека
-тенологий [Metarhia](https://github.com/metarhia/Metarhia):
-* для Qt (C++) с поддержкой Linux, Mac, Windows и др.
-* для Node.js (C++, Qt, JavaScript) с поддержкой Linux, Mac, Windows
-* для iOS (Swift)
-* для Android (Java)
-* для ветхого веба (гипертекстовых браузеров)
+Console is client-side run-time for Metarhia applications. It's a part of Metarhia technological and have following implementations:
+- Qt  and Node.js (C++) for Linux, MacOS, Windows
+- iOS (Swift and Objective-C)
+- Android (Java and possibly C++ and Node.js)
+- Archaic Web emulator (for hypertext browsers)
 
-Основные принципы построения:
-* Компонентный подход и реактивный принцип связывания данных и компонентов
-* Использование метаданных и декларативных структур для формального описания
-интерфейсов, которые могут рендериться по-разному на разных платформах
-* До 80-90% интерфейса можно получить из описания метамодели при помощи
-транслятора; поправив то, что требует изменения, и добавив недостающие
-параметры, события и методы, мы быстро получаем формы, CRUD и навигацию
+Basic principles:
+- Component approach and reactive binding between visual components and data structures
+- Metadata and declarative structures usage for user interfaces formal description, it allows to render UI with different native libraries
+- Up to 80-90% of user interfaces can be automatically built from metamodel (scaffolding), all other code can be added at late steps including forms, application graphs, CRUD and tables, etc.
 
 ## Metamodel Definition Language
 
-Язык описания метамодели
-
 ## GUI Definition Language
-
-Язык описания интерфейсов пользователя
