@@ -2,7 +2,7 @@
 
 ## The Concept
 
-Console is client-side run-time for Metarhia applications. It's a part of Metarhia technological and have following implementations:
+Console is client-side run-time for Metarhia applications. It's a part of Metarhia technological stack and have following implementations:
 - Qt  and Node.js (C++) for Linux, MacOS, Windows
 - iOS (Swift and Objective-C)
 - Android (Java and possibly C++ and Node.js)
